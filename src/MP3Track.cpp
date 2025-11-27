@@ -61,5 +61,5 @@ PointerWrapper<AudioTrack> MP3Track::clone() const {
     // TODO: Implement polymorphic cloning
     
     MP3Track* new_copy = new MP3Track(*this);
-    return PointerWrapper<AudioTrack>(nullptr);
+    return PointerWrapper<AudioTrack>(new_copy);
 }
