@@ -1,9 +1,2 @@
-bin/CacheSlot.o
+bin/*.o
 bin/dj_manager
-bin/DJControllerService.o
-bin/DJSession.o
-bin/LRUCache.o
-bin/main.o
-bin/MP3Track.o
-bin/WAVTrack.o
-*.o
